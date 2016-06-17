@@ -11,10 +11,10 @@ logging:
     io:
       pivotal: DEBUG
 
-spring: # <---NEW SECTION
+spring:
   cloud:
     services:
       registrationMethod: direct
 
-ribbon: # <---NEW SECTION
+ribbon:
   IsSecure: false
